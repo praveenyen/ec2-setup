@@ -5,4 +5,5 @@ sudo systemctl restart nginx
 sudo apt install nodejs -y
 sudo apt install npm -y
 sudo add-apt-repository ppa:certbot/certbot -y
-sudo apt install python-certbot-nginx -y
+sudo apt install python3-certbot-nginx -y
+sudo npm i -g pm2
